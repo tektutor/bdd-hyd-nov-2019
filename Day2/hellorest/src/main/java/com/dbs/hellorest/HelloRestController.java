@@ -26,10 +26,5 @@ public class HelloRestController {
 	public String sayHello(@RequestParam(name="name") String name ) {
 		return hello.sayHello(name);
 	}
-		
-	@GetMapping("/another")
-	public String anotherRESTAPI() {
-		return "Another REST API";
-	}
-	
+			
 }
